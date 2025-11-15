@@ -3,3 +3,85 @@
 2025-11-14 18:50:50,690 - INFO - Start Time: 2025-11-14 18:50:50
 2025-11-14 18:50:50,690 - INFO - ================================================================================
 2025-11-14 18:50:50,691 - INFO - All libraries imported successfully
+2025-11-14 18:50:54,533 - INFO - 
+================================================================================
+2025-11-14 18:50:54,533 - INFO - PHASE 1: DATA LOADING AND EXPLORATION
+2025-11-14 18:50:54,534 - INFO - ================================================================================
+2025-11-14 18:50:54,695 - INFO - Ratings columns: ['userId', 'movieId', 'rating', 'timestamp']
+2025-11-14 18:50:54,697 - INFO - Movies columns: ['movieId', 'title', 'genres']
+2025-11-14 18:50:54,699 - INFO - Total Users: 610
+2025-11-14 18:50:54,702 - INFO - Total Movies: 9724
+2025-11-14 18:50:54,703 - INFO - Total Ratings: 100836
+2025-11-14 18:50:54,703 - INFO - Sparsity: 98.30%
+2025-11-14 18:50:54,704 - INFO - Average Rating: 3.50
+2025-11-14 18:51:03,361 - INFO - 
+Creating initial data visualizations...
+2025-11-14 18:54:46,420 - INFO - 
+================================================================================
+2025-11-14 18:54:46,421 - INFO - PHASE 1: DATA LOADING AND EXPLORATION
+2025-11-14 18:54:46,421 - INFO - ================================================================================
+2025-11-14 18:54:46,460 - INFO - Ratings columns: ['userId', 'movieId', 'rating', 'timestamp']
+2025-11-14 18:54:46,462 - INFO - Movies columns: ['movieId', 'title', 'genres']
+2025-11-14 18:54:46,465 - INFO - Total Users: 610
+2025-11-14 18:54:46,466 - INFO - Total Movies: 9724
+2025-11-14 18:54:46,467 - INFO - Total Ratings: 100836
+2025-11-14 18:54:46,467 - INFO - Sparsity: 98.30%
+2025-11-14 18:54:46,467 - INFO - Average Rating: 3.50
+2025-11-14 18:55:04,753 - INFO - 
+================================================================================
+2025-11-14 18:55:04,754 - INFO - PHASE 1: DATA LOADING AND EXPLORATION
+2025-11-14 18:55:04,755 - INFO - ================================================================================
+2025-11-14 18:55:04,793 - INFO - Ratings columns: ['userId', 'movieId', 'rating', 'timestamp']
+2025-11-14 18:55:04,794 - INFO - Movies columns: ['movieId', 'title', 'genres']
+2025-11-14 18:55:04,798 - INFO - Total Users: 610
+2025-11-14 18:55:04,798 - INFO - Total Movies: 9724
+2025-11-14 18:55:04,799 - INFO - Total Ratings: 100836
+2025-11-14 18:55:04,799 - INFO - Sparsity: 98.30%
+2025-11-14 18:55:04,800 - INFO - Average Rating: 3.50
+2025-11-14 18:55:11,949 - INFO - ================================================================================
+2025-11-14 18:55:11,949 - INFO - MOVIE RATING PREDICTION PROJECT STARTED
+2025-11-14 18:55:11,949 - INFO - Start Time: 2025-11-14 18:55:11
+2025-11-14 18:55:11,949 - INFO - ================================================================================
+2025-11-14 18:55:11,952 - INFO - All libraries imported successfully
+2025-11-14 18:55:17,546 - INFO - 
+Creating initial data visualizations...
+2025-11-14 18:55:22,835 - INFO - 
+================================================================================
+2025-11-14 18:55:22,836 - INFO - PHASE 2: FEATURE ENGINEERING FOR USER SEGMENTATION
+2025-11-14 18:55:22,836 - INFO - ================================================================================
+2025-11-14 18:55:22,836 - INFO - Creating user features...
+2025-11-14 18:55:22,855 - INFO - Features: ['userId', 'num_ratings', 'avg_rating', 'std_rating', 'min_rating', 'max_rating', 'num_movies', 'rating_range']
+2025-11-14 18:55:22,866 - INFO - 
+User feature statistics:
+2025-11-14 18:55:22,867 - INFO - num_ratings: mean=165.30, std=269.48
+2025-11-14 18:55:22,867 - INFO - avg_rating: mean=3.66, std=0.48
+2025-11-14 18:55:22,868 - INFO - std_rating: mean=0.93, std=0.27
+2025-11-14 19:27:57,357 - INFO - ================================================================================
+2025-11-14 19:27:57,359 - INFO - MOVIE RATING PREDICTION PROJECT STARTED
+2025-11-14 19:27:57,360 - INFO - Start Time: 2025-11-14 19:27:57
+2025-11-14 19:27:57,361 - INFO - ================================================================================
+2025-11-14 19:27:57,362 - INFO - All libraries imported successfully
+2025-11-14 19:29:54,108 - INFO - 
+================================================================================
+2025-11-14 19:29:54,110 - INFO - PHASE 1: DATA LOADING AND EXPLORATION
+2025-11-14 19:29:54,112 - INFO - ================================================================================
+2025-11-14 19:29:54,171 - INFO - Ratings columns: ['userId', 'movieId', 'rating', 'timestamp']
+2025-11-14 19:29:54,174 - INFO - Movies columns: ['movieId', 'title', 'genres']
+2025-11-14 19:29:54,179 - INFO - Total Users: 610
+2025-11-14 19:29:54,180 - INFO - Total Movies: 9724
+2025-11-14 19:29:54,180 - INFO - Total Ratings: 100836
+2025-11-14 19:29:54,181 - INFO - Sparsity: 98.30%
+2025-11-14 19:29:54,182 - INFO - Average Rating: 3.50
+2025-11-14 19:33:12,412 - INFO - 
+Creating initial data visualizations...
+2025-11-14 19:50:46,411 - INFO - 
+Creating initial data visualizations...
+2025-11-14 19:51:44,090 - INFO - 
+Creating cluster visualizations...
+2025-11-14 20:01:10,531 - INFO - 
+Creating initial data visualizations...
+2025-11-14 20:04:45,673 - INFO - ================================================================================
+2025-11-14 20:04:45,674 - INFO - MOVIE RATING PREDICTION PROJECT STARTED
+2025-11-14 20:04:45,675 - INFO - Start Time: 2025-11-14 20:04:45
+2025-11-14 20:04:45,675 - INFO - ================================================================================
+2025-11-14 20:04:45,676 - INFO - All libraries imported successfully
