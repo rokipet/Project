@@ -1,0 +1,190 @@
+%PDF-1.4
+%
+1 0 obj << /Type /Catalog /Pages 2 0 R >> endobj
+2 0 obj << /Type /Pages /Kids [3 0 R] /Count 1 >> endobj
+3 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R /F3 7 0 R >> >> >> endobj
+4 0 obj << /Length 2893 >> stream
+BT
+/F1 24 Tf
+72 760 Td
+(Movie Rating Prediction Project) Tj
+ET
+BT
+/F1 18 Tf
+72 722 Td
+(Easy Presentation Guide) Tj
+ET
+BT
+/F1 16 Tf
+72 670 Td
+(1. Start with a quick hook \\(30 seconds\\)) Tj
+ET
+BT
+/F2 12 Tf
+72 638 Td
+(Open with a question: "How many times have you watched a movie you didn't love?") Tj
+ET
+BT
+/F2 12 Tf
+72 614 Td
+(Promise the outcome: our model predicts ratings before you press play.) Tj
+ET
+BT
+/F1 16 Tf
+72 572 Td
+(2. Share the simple story \\(2 minutes\\)) Tj
+ET
+BT
+/F2 12 Tf
+72 540 Td
+(Slide 1 – The problem: people rate 100k movies but most pairs are unknown.) Tj
+ET
+BT
+/F2 12 Tf
+72 516 Td
+(Slide 2 – Our solution: a three-step pipeline that groups users, makes rules, and finds) Tj
+ET
+BT
+/F2 12 Tf
+72 502 Td
+(hidden tastes.) Tj
+ET
+BT
+/F2 12 Tf
+72 478 Td
+(Slide 3 – Visual cue: reuse the K-Means clusters graphic and label each cluster with a) Tj
+ET
+BT
+/F2 12 Tf
+72 464 Td
+(persona.) Tj
+ET
+BT
+/F1 16 Tf
+72 422 Td
+(3. Explain each method with analogies \\(3 minutes\\)) Tj
+ET
+BT
+/F2 12 Tf
+72 390 Td
+(K-Means → Study groups: show a table with "Movie Lovers" through "Critics" and their) Tj
+ET
+BT
+/F2 12 Tf
+72 376 Td
+(habits.) Tj
+ET
+BT
+/F2 12 Tf
+72 352 Td
+(Decision Tree → Flowchart: walk top to bottom, highlighting how we branch on movie) Tj
+ET
+BT
+/F2 12 Tf
+72 338 Td
+(popularity and generosity.) Tj
+ET
+BT
+/F2 12 Tf
+72 314 Td
+(Matrix Factorization → Hidden tastes: compare to Spotify uncovering your secret playlist) Tj
+ET
+BT
+/F2 12 Tf
+72 300 Td
+(vibe.) Tj
+ET
+BT
+/F3 12 Tf
+72 276 Td
+(Tip: keep each explanation under 40 seconds and point to the matching slide icon.) Tj
+ET
+BT
+/F1 16 Tf
+72 234 Td
+(4. Highlight results and impact \\(1 minute\\)) Tj
+ET
+BT
+/F2 12 Tf
+72 202 Td
+(Share the rating accuracy snapshot and the insight that users are generous \\(average 3.5) Tj
+ET
+BT
+/F2 12 Tf
+72 188 Td
+(stars\\).) Tj
+ET
+BT
+/F2 12 Tf
+72 164 Td
+(Connect back to the hook: we help people skip mediocre movies and surface hidden gems.) Tj
+ET
+BT
+/F1 16 Tf
+72 122 Td
+(5. Close with engagement \\(30 seconds\\)) Tj
+ET
+BT
+/F2 12 Tf
+72 90 Td
+(Ask for a volunteer's favorite genre and describe how the model would tailor picks for) Tj
+ET
+BT
+/F2 12 Tf
+72 76 Td
+(them.) Tj
+ET
+BT
+/F2 12 Tf
+72 52 Td
+(Invite questions: "Want to know which part of the pipeline matters most?") Tj
+ET
+BT
+/F1 16 Tf
+72 10 Td
+(Presenter checklist) Tj
+ET
+BT
+/F2 12 Tf
+72 -20 Td
+(✓ Practice with the simple slide deck \\(PRESENTATION_SIMPLE.md\\).) Tj
+ET
+BT
+/F2 12 Tf
+72 -44 Td
+(✓ Keep each phase under one minute to stay within a 7-minute talk.) Tj
+ET
+BT
+/F2 12 Tf
+72 -68 Td
+(✓ Use stories: "Imagine Netflix texting you your rating before you watch.") Tj
+ET
+BT
+/F2 12 Tf
+72 -92 Td
+(✓ Bring up the data chart \\(01_data_exploration.png\\) when discussing generosity of ratings.) Tj
+ET
+BT
+/F2 12 Tf
+72 -116 Td
+(✓ End by restating the value: smarter movie nights with personalized predictions.) Tj
+ET
+endstream
+endobj
+5 0 obj << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >> endobj
+6 0 obj << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> endobj
+7 0 obj << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique >> endobj
+xref
+0 8
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000267 00000 n 
+0000003212 00000 n 
+0000003287 00000 n 
+0000003357 00000 n 
+trailer << /Size 8 /Root 1 0 R >>
+startxref
+3435
+%%EOF
