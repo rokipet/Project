@@ -91,3 +91,77 @@ User feature statistics:
 2025-11-15 07:05:55,893 - INFO - Scaled data - mean: [4.65929663e-17 1.03086938e-15 6.05708562e-16], std: [1. 1. 1.]
 2025-11-15 07:05:55,893 - INFO - 
 Performing Elbow Method to find optimal K...
+2025-11-15 07:05:58,026 - INFO - K=2: WCSS=1269.63
+2025-11-15 07:05:58,055 - INFO - K=3: WCSS=914.49
+2025-11-15 07:05:58,090 - INFO - K=4: WCSS=759.47
+2025-11-15 07:05:58,125 - INFO - K=5: WCSS=637.98
+2025-11-15 07:05:58,166 - INFO - K=6: WCSS=529.24
+2025-11-15 07:05:58,216 - INFO - K=7: WCSS=466.78
+2025-11-15 07:05:58,255 - INFO - K=8: WCSS=423.83
+2025-11-15 07:05:58,296 - INFO - K=9: WCSS=381.04
+2025-11-15 07:05:58,338 - INFO - K=10: WCSS=343.31
+2025-11-15 07:05:58,615 - INFO - ✓ Elbow curve saved as elbow_method.png
+2025-11-15 07:05:58,615 - INFO - 
+Applying K-Means with optimal K=4
+2025-11-15 07:05:58,660 - INFO - ✓ K-Means clustering complete
+2025-11-15 07:05:58,660 - INFO - Inertia (WCSS): 759.47
+2025-11-15 07:05:58,660 - INFO - Number of iterations: 30
+2025-11-15 07:05:58,666 - INFO - 
+Cluster distribution:
+2025-11-15 07:05:58,666 - INFO - Cluster 0: 270 users (44.3%)
+2025-11-15 07:05:58,666 - INFO - Cluster 1: 97 users (15.9%)
+2025-11-15 07:05:58,666 - INFO - Cluster 2: 32 users (5.2%)
+2025-11-15 07:05:58,666 - INFO - Cluster 3: 211 users (34.6%)
+2025-11-15 07:05:58,674 - INFO - 
+Cluster characteristics (mean values):
+2025-11-15 07:05:58,676 - INFO - Cluster 0: num_ratings=135.1, avg_rating=3.60, std_rating=0.97
+2025-11-15 07:05:58,676 - INFO - Cluster 1: num_ratings=92.1, avg_rating=3.07, std_rating=1.32
+2025-11-15 07:05:58,676 - INFO - Cluster 2: num_ratings=1061.9, avg_rating=3.26, std_rating=0.91
+2025-11-15 07:05:58,679 - INFO - Cluster 3: num_ratings=101.6, avg_rating=4.06, std_rating=0.70
+2025-11-15 07:05:58,701 - INFO - 
+Creating cluster visualizations...
+2025-11-15 07:05:59,548 - INFO - ✓ Cluster visualizations saved as cluster_visualization.png
+2025-11-15 07:05:59,548 - INFO - 
+Cluster interpretation:
+2025-11-15 07:05:59,548 - INFO - Cluster 0: High Activity, Positive, Varied Tastes (n=270, avg_ratings=135.1, avg_val=3.60, std=0.97)
+2025-11-15 07:05:59,548 - INFO - Cluster 1: High Activity, Moderate, Varied Tastes (n=97, avg_ratings=92.1, avg_val=3.07, std=1.32)
+2025-11-15 07:05:59,548 - INFO - Cluster 2: High Activity, Moderate, Varied Tastes (n=32, avg_ratings=1061.9, avg_val=3.26, std=0.91)
+2025-11-15 07:05:59,555 - INFO - Cluster 3: High Activity, Positive, Consistent (n=211, avg_ratings=101.6, avg_val=4.06, std=0.70)
+2025-11-15 07:05:59,555 - INFO - 
+================================================================================
+2025-11-15 07:05:59,555 - INFO - PROJECT SUMMARY
+2025-11-15 07:05:59,555 - INFO - ================================================================================
+2025-11-15 07:05:59,555 - INFO - 
+========================================
+PROJECT SUMMARY
+========================================
+
+1. DATASET:
+   - Total Ratings: 100,836
+   - Total Users: 610
+   - Total Movies: 9,724
+   - Sparsity: 98.30%
+
+2. USER SEGMENTATION (K-Means Clustering):
+   - Number of Clusters: 4
+   - Features Used: num_ratings, avg_rating, std_rating
+   - Users successfully segmented into 4 distinct behavioral groups
+
+3. KEY FINDINGS:
+   - Users can be effectively segmented based on rating behavior
+   - 4 distinct user segments identified with unique characteristics
+   - Clustering reveals patterns in user activity and rating preferences
+
+4. OUTPUTS GENERATED:
+   - data_exploration.png
+   - elbow_method.png
+   - cluster_visualization.png
+   - movie_clustering_project.log
+
+========================================
+
+2025-11-15 07:05:59,555 - INFO - 
+================================================================================
+2025-11-15 07:05:59,555 - INFO - PROJECT COMPLETED SUCCESSFULLY
+2025-11-15 07:05:59,555 - INFO - End Time: 2025-11-15 07:05:59
+2025-11-15 07:05:59,555 - INFO - ================================================================================
